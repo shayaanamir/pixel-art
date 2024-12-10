@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">PIXEL ART</div>
+    <div id="tools">
+        <div id="gridSizeBar">
+            <h3>Grid size: 16</h3>
+            <input type="range" min="1" max = "64" value="16" id="gridSlider">
+        </div>
+        <div id="colorBar">
+            <h3>Color:</h3>
+            <input type="color" value="#ff0000" id="colorPicker">
+        </div>
+        <div id="buttonBar">
+            <button id="drawButton">Draw</button>
+            <button id="eraseButton">Eraser</button>
+            <button id="clearButton">Clear</button>
+        </div>
+    </div>
+    
+    <div id="content">
+        <div id="container">
+        </div>
+    </div>
+    
+</body>
+</html>
